@@ -1,7 +1,7 @@
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
-    # organization = "<replace-with-your-Terraform-Cloud-organization-and-uncomment>"
+    organization = "ACE-AUTOMATION-DAVE"
     workspaces {
       name = "ace-automation-lab1"
     }
